@@ -1,0 +1,163 @@
+.f-nav {
+	position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 0;
+    background: #f4f4f4;
+    padding-top: 20px;
+    border-bottom: 1px solid black;
+}
+
+.inactive { display: none }
+.active { display: block }
+
+.accordian-btn {
+	background-color: #fdfdf8;
+	margin-bottom: 8px;
+	color: black;
+	
+}
+
+.accordian-btn:hover {
+	cursor: pointer;
+	background-color: rgba(216, 113, 28, 0.25);
+	color: rgba(255, 255, 255, 0.8);
+}
+
+
+menu-container {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 70%;
+    vertical-align: baseline;
+    }
+p {
+	font-size: 70%;
+	line-height: 200%;
+	
+	
+}
+
+.p0 .c0 {
+	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+	font-style: italic;
+	font-size:20px;
+}
+
+.p18 .c0 {
+	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+	font-size: 10;
+	text-transform: uppercase;
+}
+
+.p0 .c3 {
+	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+	font-size:40px;
+}
+
+#image-slider .image-slide {
+	display: none;
+	left: 32px;
+    top: 194px;
+    position: absolute;
+    height: 350px;
+    width: 1006px;
+    z-index: 21;
+    opacity: 1.0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#image-slider .image-slide.active {
+	display: block;
+}
+
+#image-slider .slide-right {
+	position: absolute;
+    right: 0;
+    /* top: 41%; */
+    height: 350px;
+    font-size: 3em;
+    color: white;
+    right: 0;
+    left: auto;
+    width: 75px;
+    background-image: -webkit-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
+    background-image: -o-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
+    background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.0001)),to(rgba(0,0,0,.5)));
+    background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+    background-repeat: repeat-x;
+}
+
+#image-slider .slide-left {
+	position: absolute;
+    left: 0;
+    /* top: 41%; */
+    height: 350px;
+    font-size: 3em;
+    color: white;
+    width: 75px;
+    background-image: -webkit-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
+    background-image: -o-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
+    background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.5)),to(rgba(0,0,0,.0001)));
+    background-image: linear-gradient(to right,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+    background-repeat: repeat-x;
+}
+
+#image-slider .slide-control:hover::after {
+	color: #fff;
+    text-decoration: none;
+    filter: alpha(opacity=90);
+    outline: 0;
+    opacity: .9;
+}
+
+#image-slider .slide-control:hover {
+	cursor: pointer;
+}
+
+#image-slider .slide-right::after {
+    content: "\f054";
+    position: relative;
+    top: 150px;
+    font-family: "FontAwesome";
+    display: block;
+    text-align: right;
+    margin-right: 10px;
+    color: #d6d6d6;
+}
+
+#image-slider .slide-left::after {
+    content: "\f053";
+    position: relative;
+    top: 150px;
+    font-family: "FontAwesome";
+    display: block;
+    text-align: left;
+    margin-left: 10px;
+    color: #d6d6d6;
+}
+
+h2 {
+	font-size: 80%;
+	}
+.spesh{
+	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+	letter-spacing: 3px;
+	text-transform:uppercase;
+	
+}	
+	
+h1 
+
+	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+	font-size: 24px;
+	font-style: normal;
+	font-va riant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
